@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Leonid Simakov",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/node": "^20.16.2",
+    "rollup": "^4.21.2",
+    "tslib": "^2.7.0",
     "typescript": "^5.5.4"
   }
 }
